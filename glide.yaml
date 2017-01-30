@@ -1,0 +1,5 @@
+package: github.com/Haybu/saw
+import:
+- package: github.com/urfave/cli
+  subpackages:
+  - altsrc

@@ -1,0 +1,89 @@
+hash: 9ef0efdc9950cb3540039d1686422f751a0b4332db725961e849a1ebb3b948f6
+updated: 2017-01-29T17:20:23.064806965-06:00
+imports:
+- name: bitbucket.org/amdatulabs/amdatu-kubernetes-go
+  version: d139e7118e8b351b8506b277b134cfe27b3cc9cc
+  subpackages:
+  - api/resource
+  - api/unversioned
+  - api/util
+  - api/v1
+  - client
+- name: cloud.google.com/go
+  version: 3b1ae45394a234c385be014e9a488f2bb6eef821
+  subpackages:
+  - compute/metadata
+  - internal
+- name: github.com/golang/protobuf
+  version: 8616e8ee5e20a1704615e6c8d7afcdac06087a67
+  subpackages:
+  - proto
+- name: github.com/google/gofuzz
+  version: fd52762d25a41827db7ef64c43756fd4b9f7e382
+- name: github.com/spf13/pflag
+  version: 7f60f83a2c81bc3c3c0d5297f61ddfa68da9d3b7
+- name: github.com/urfave/cli
+  version: 347a9884a87374d000eec7e6445a34487c1f4a2b
+  subpackages:
+  - altsrc
+- name: golang.org/x/net
+  version: cbbbe2bc0f2efdd2afb318d93f1eadb19350e4a3
+  subpackages:
+  - context
+  - context/ctxhttp
+  - http2
+  - http2/hpack
+  - internal/timeseries
+  - trace
+  - websocket
+- name: golang.org/x/oauth2
+  version: 3c3a985cb79f52a3190fbc056984415ca6763d01
+  subpackages:
+  - google
+  - internal
+  - jws
+  - jwt
+- name: google.golang.org/api
+  version: dfa61ae24628a06502b9c2805d983b57e89399b5
+  subpackages:
+  - container/v1
+  - gensupport
+  - googleapi
+  - googleapi/internal/uritemplates
+  - googleapi/transport
+  - internal
+  - option
+  - transport
+- name: google.golang.org/appengine
+  version: 4f7eeb5305a4ba1966344836ba4af9996b7b4e05
+  subpackages:
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+  - internal/socket
+  - internal/urlfetch
+  - socket
+  - urlfetch
+- name: google.golang.org/grpc
+  version: 21f8ed309495401e6fd79b3a9fd549582aed1b4c
+  subpackages:
+  - codes
+  - credentials
+  - credentials/oauth
+  - grpclog
+  - internal
+  - metadata
+  - naming
+  - peer
+  - stats
+  - tap
+  - transport
+- name: gopkg.in/inf.v0
+  version: 3887ee99ecf07df5b447e9b00d9c0b2adaa9f3e4
+- name: gopkg.in/urfave/cli.v1
+  version: 0bdeddeeb0f650497d603c4ad7b20cfe685682f6
+testImports: []
